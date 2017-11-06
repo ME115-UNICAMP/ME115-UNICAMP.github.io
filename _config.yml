@@ -4,7 +4,9 @@ email:
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
-github_username:  samarafk
+github_username:  benilton
+github_username2:  samarafk
+github_username3:  tatibenaglia
 
 # Build settings
 markdown: kramdown
