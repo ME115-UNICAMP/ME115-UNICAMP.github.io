@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 * ME115A ME115B: Professora [Samara F. Kiihl](http://samarafk.github.io/)
-* ME115C ME115D: Professora Tatiana Benaglia
+* ME115C ME115D: Professora [Tatiana Benaglia](http://www.ime.unicamp.br/departamentos/estatistica/corpo-docente)
 * ME115A: Terça-feira 14-16 (Sala) - Quinta-feira 14-16 (Sala LM03)
 * ME115B: Terça-feira 14-16 (Sala) - Quinta-feira 14-16 (Sala LM03)
 * ME115C: Sexta-feira 8-10 (Sala) - Sexta-feira 10-12 (Sala LM03)
