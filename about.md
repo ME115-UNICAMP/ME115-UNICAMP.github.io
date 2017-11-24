@@ -6,10 +6,10 @@ permalink: /about/
 
 * ME115A ME115B: Professora [Samara F. Kiihl](http://samarafk.github.io/)
 * ME115C ME115D: Professora [Tatiana Benaglia](http://www.ime.unicamp.br/departamentos/estatistica/corpo-docente)
-* ME115A: Terça-feira 14-16 (Sala) - Quinta-feira 14-16 (Sala LM03)
-* ME115B: Terça-feira 14-16 (Sala) - Quinta-feira 14-16 (Sala LM03)
-* ME115C: Sexta-feira 8-10 (Sala) - Sexta-feira 10-12 (Sala LM03)
-* ME115D: Sexta-feira 8-10 (Sala) - Sexta-feira 10-12 (Sala LM03)
+* ME115A: Terça-feira 14-16 (Sala SI03) - Quinta-feira 14-16 (Sala LM03)
+* ME115B: Terça-feira 14-16 (Sala  SI05) - Quinta-feira 14-16 (Sala LM03)
+* ME115C: Sexta-feira 8-10 (Sala SI03) - Sexta-feira 10-12 (Sala LM03)
+* ME115D: Sexta-feira 8-10 (Sala SI05) - Sexta-feira 10-12 (Sala LM03)
 * Comunicação por email: APENAS pelo email samara@ime.unicamp.br/tatiana@ime.unicamp.br, APENAS com [ME115] especificado no assunto da mensagem, APENAS remetentes do email dac.unicamp.br. Qualquer outra mensagem de aluno sem essas especificações [será ignorada](images/hqdefault.jpg).
 * Atividades e notas estão disponíveis na [página do Moodle](http://www.ggte.unicamp.br/eam/course/view.php?id=2184).
 * Sobre abono de faltas, consulte o [regimento](http://www.dac.unicamp.br/portal/grad/regimento/capitulo_v/secao_x/).
