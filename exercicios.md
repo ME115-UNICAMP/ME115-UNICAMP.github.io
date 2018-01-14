@@ -7,5 +7,5 @@ permalink: /exercicios/
 
 Os exercícios deverão ser feitos individualmente, através da plataforma [DataCamp](https://www.datacamp.com) ou outro meio especificado. 
 
-
-* [Teste 1](Teste01.html)
+* [Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r)
+* [Intermediate R](https://www.datacamp.com/courses/intermediate-r)
