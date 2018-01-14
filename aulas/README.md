@@ -1,4 +1,4 @@
-# ME613 - Análise de Regressão
+# ME115- Linguagem R
 
 ## Departamento de Estatística - IMECC - Unicamp
 
