@@ -6,9 +6,9 @@ permalink: /aulas/
 
 
 
+
 ### Introdução
  
-
-[Parte 1](slides/parte01/parte01.html)
+[Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r)
 
 
