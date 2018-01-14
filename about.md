@@ -11,7 +11,7 @@ permalink: /about/
 * ME115C: Sexta-feira 8-10 (Sala SI03) - Sexta-feira 10-12 (Sala LM03)
 * ME115D: Sexta-feira 8-10 (Sala SI05) - Sexta-feira 10-12 (Sala LM03)
 * Comunicação por email: APENAS pelo email samara@ime.unicamp.br/tatiana@ime.unicamp.br, APENAS com [ME115] especificado no assunto da mensagem, APENAS remetentes do email dac.unicamp.br. Qualquer outra mensagem de aluno sem essas especificações [será ignorada](images/hqdefault.jpg).
-* Atividades e notas estão disponíveis na [página do Moodle](http://www.ggte.unicamp.br/eam/course/view.php?id=2184).
+* Atividades e notas estão disponíveis nas páginas do Moodle: [Turmas A e B](http://www.ggte.unicamp.br/eam/course/view.php?id=5973); Turmas C e D.
 * Sobre abono de faltas, consulte o [regimento](http://www.dac.unicamp.br/portal/grad/regimento/capitulo_v/secao_x/).
 * O aluno deverá proceder de forma respeitosa e honesta durante as provas bem como na resolução de qualquer outra atividade que seja parte da avaliação do curso.
 * A senha usada para acessar o Moodle é intransferível. Capítulo VI, artigo 59: [http://www.pg.unicamp.br/mostra_norma.php?id_norma=3256](http://www.pg.unicamp.br/mostra_norma.php?id_norma=3256)
