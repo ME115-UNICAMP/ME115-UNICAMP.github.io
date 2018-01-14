@@ -1,0 +1,26 @@
+---
+title: "ME115 - Linguagem R"
+subtitle: Parte 1
+output:
+  ioslides_presentation:
+    widescreen: yes
+logo: ../logo-imecc.png
+---
+
+# Introdução
+
+
+
+## Leitura
+
+* [R Programming for Data Science](https://leanpub.com/rprogramming): capítulos 1 ao 5.
+
+
+
+##
+
+Slides produzidos pelas professoras:
+
+* Samara Kiihl
+
+* Tatiana Benaglia
