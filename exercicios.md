@@ -9,3 +9,4 @@ Os exercícios deverão ser feitos individualmente, através da plataforma [Data
 
 * [Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r)
 * [Intermediate R](https://www.datacamp.com/courses/intermediate-r)
+* [Intermediate R - Practice](https://www.datacamp.com/courses/intermediate-r-practice)
