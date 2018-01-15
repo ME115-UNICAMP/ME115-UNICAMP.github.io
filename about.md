@@ -23,19 +23,22 @@ permalink: /about/
 
 * Peng, R. [R Programming for Data Science](https://leanpub.com/rprogramming).
 * Chambers, J. [Software for Data Analysis: Programming with R](https://link.springer.com/book/10.1007%2F978-0-387-75936-4).
+* Wickham, H. [ggplot2](https://link.springer.com/book/10.1007%2F978-0-387-98141-3).
 
 Para acessar alguns dos livros digitais fora da Unicamp, você poderá precisar do VPN. Veja instruções de instalação [aqui](http://www.ccuec.unicamp.br/ccuec/acesso_remoto_vpn).
 
 ### Critérios de Avaliação e Datas Importantes
 
 * A: Atividades em aula, testes, exercícios, laboratórios
+* T1: Tarefa 1
+* T2: Tarefa 2
+* T3: Tarefa 3
 * MG: Média Geral
 * MF: Média Final
 * NE: Nota do Exame
 
-Pr = (0.30 R1 + 0.60 R2 + 0.10 Ap)
 
-MG = 0.30 P1 + 0.35 P2 + 0.20 Pr + 0.15 A
+MG = 0.15 T1 + 0.20 T2 + 0.25 T3 + 0.40 A
 
 Se MG >= 7, o aluno estará aprovado e MF=MG
 
