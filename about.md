@@ -48,6 +48,6 @@ Se MG < 7 o aluno deverá fazer exame e MF=(MG+NE)/2.
 
 Não importa quão experiente em programação você seja, quando seu código funciona [você se sente com super poderes, mas quando você começa a modificar seu código a todo momento tentando achar a solução você sente que não tem idéia do que está fazendo](images/estados.png). É  neste momento que você está no processo de aprendizado.
 
-Se você está tentando sem progredir, busque ajuda. Dicas de como buscar ajuda: http://r-bio.github.io/seeking-help.
+Se você está tentando sem progredir, busque ajuda. Dicas de como buscar ajuda: [http://r-bio.github.io/seeking-help](http://r-bio.github.io/seeking-help).
 
 
