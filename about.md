@@ -30,10 +30,7 @@ Para acessar alguns dos livros digitais fora da Unicamp, você poderá precisar 
 
 ### Critérios de Avaliação e Datas Importantes
 
-* A: Atividades em aula, testes, exercícios, laboratórios
-* T1: Tarefa 1
-* T2: Tarefa 2
-* T3: Tarefa 3
+* A: Atividades em aula, testes, exercícios, laboratórios, DataCamp
 * MG: Média Geral
 * MF: Média Final
 * NE: Nota do Exame
