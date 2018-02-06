@@ -39,14 +39,16 @@ Para acessar alguns dos livros digitais fora da Unicamp, você poderá precisar 
 * NE: Nota do Exame
 
 
-MG = 0.15 T1 + 0.20 T2 + 0.25 T3 + 0.40 A
+MG = A
 
-Se MG >= 7, o aluno estará aprovado e MF=MG
+Se MG >= 7, o aluno estará aprovado e MF = MG
 
-Se MG < 7 o aluno deverá fazer exame e MF=(MG+NE)/2.
+Se MG < 7 e frequência inferior a 75% o aluno está reprovado por falta e MF = MG 
+
+Se MG < 7 e frequência de pelo menos 75% o aluno deverá fazer exame e MF = (MG+NE)/2.
 
 ### Ajuda com o R
 
-Não importa quão experiente em programação você seja, quando seu código funciona [você se sente com super poderes, mas quando você começa a modificar seu código a todo momento tentando achar a solução você sente que não tem idéia do que está fazendo](images/estados.png). É  neste momento que você está no processo de aprendizado. No entanto, se seu código não estiver progredindo, busque ajuda. Dicas de como buscar ajuda: [http://r-bio.github.io/seeking-help](http://r-bio.github.io/seeking-help).
+Não importa quão experiente em programação você seja, quando seu código funciona [você se sente com super poderes, mas quando você começa a modificar seu código a todo momento tentando achar a solução você sente que não tem idéia do que está fazendo](images/estados.png). É neste momento que você está no processo de aprendizado. No entanto, se seu código não estiver progredindo, busque ajuda. Dicas de como buscar ajuda: [http://r-bio.github.io/seeking-help](http://r-bio.github.io/seeking-help).
 
 
