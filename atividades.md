@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Exercícios
-permalink: /exercicios/
+title: Atividades
+permalink: /atividades/
 ---
 
 
