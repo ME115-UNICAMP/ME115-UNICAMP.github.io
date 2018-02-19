@@ -31,12 +31,13 @@ Para acessar alguns dos livros digitais fora da Unicamp, você poderá precisar 
 ### Critérios de Avaliação e Datas Importantes
 
 * A: Atividades em aula, testes, exercícios, laboratórios, DataCamp
+* P: Projeto Final
 * MG: Média Geral
 * MF: Média Final
 * NE: Nota do Exame
 
 
-MG = A
+MG = 0.8 A + 0.2 P
 
 Se MG >= 7, o aluno estará aprovado e MF = MG
 
