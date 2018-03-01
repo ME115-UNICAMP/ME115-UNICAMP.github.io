@@ -25,6 +25,7 @@ permalink: /about/
 * Chambers, J. [Software for Data Analysis: Programming with R](https://link.springer.com/book/10.1007%2F978-0-387-75936-4).
 * Grolemund, G., Wickham, H. [R for Data Science](http://r4ds.had.co.nz)
 * Wickham, H. [ggplot2](https://link.springer.com/book/10.1007%2F978-0-387-98141-3).
+* Paulo Justiniano Ribeiro Jr., Introdução ao Ambiente Estatístico R ([html](http://www.leg.ufpr.br/~paulojus/embrapa/Rembrapa/) ou [pdf](http://leg.ufpr.br/~paulojus/embrapa/Rembrapa/Rembrapa.pdf)).
 
 Para acessar alguns dos livros digitais fora da Unicamp, você poderá precisar do VPN. Veja instruções de instalação [aqui](http://www.ccuec.unicamp.br/ccuec/acesso_remoto_vpn).
 
