@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 * ME115A ME115B: Professora [Samara F. Kiihl](http://samarafk.github.io/), PED Heidi Mara do Rosário Souza.
-* ME115C ME115D: Professora [Tatiana Benaglia](http://www.ime.unicamp.br/departamentos/estatistica/corpo-docente). PED Ana Roberta dos Santos Silva
+* ME115C ME115D: Professora [Tatiana Benaglia](http://www.ime.unicamp.br/departamentos/estatistica/corpo-docente), PED Ana Roberta dos Santos Silva.
 * ME115A: Terça-feira 14-16 (Sala SI03) - Quinta-feira 14-16 (Sala LM03)
 * ME115B: Terça-feira 14-16 (Sala  SI05) - Quinta-feira 14-16 (Sala LM03)
 * ME115C: Sexta-feira 8-10 (Sala SI03) - Sexta-feira 10-12 (Sala LM03)
