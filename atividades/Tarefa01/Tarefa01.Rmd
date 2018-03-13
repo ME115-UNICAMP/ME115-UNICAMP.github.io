@@ -1,0 +1,31 @@
+---
+title: "ME115 - Linguagem R"
+subtitle: "Tarefa 1"
+author: "Profas. Samara Kiihl e Tatiana Benaglia"
+output: html_document
+---
+
+
+**Íris** é um banco de dados bem famoso, introduzido por Fisher em 1936 em seu artigo ["The use of multiple measurements in taxonomic problems"](http://onlinelibrary.wiley.com/doi/10.1111/j.1469-1809.1936.tb02137.x/abstract) e, por isso, chamado de Íris de Fisher. O conjunto de dados contém medidas em centímetros do comprimento e largura da sépala e pétala de três espécies da flor íris (setosa, versicolor e virginica). 
+
+Esses dados já estão disponíveis no R, basta digitar `iris` no console.
+
+
+Vocês irão trabalhar com as diversas funções que já aprenderam até aqui para responder às seguintes perguntas.
+
+a) Verifique a estrutura dos dados: número de observações, número de variáveis, nomes das variáveis, tipo de variáveis em cada coluna (numérica, categórica, lógica).
+
+b) Aplique a função `summary` no banco de dados e explique o que faz para cada tipo de variável.
+
+c) Crie uma variável chamada `especie` e armazene nessa variável a coluna do banco de dados correspondente à espécie. Verifique qual a classe da varíavel `especie`. Use a função `table` e diga quantas plantas temos de cada espécie no banco de dados.
+
+d) Crie um `data.frame` chamado `setosa` e, usando a função `subset`, armazene todas as variáveis referentes à espécie *Setosa* nesse `data.frame`.
+
+    ```{r, eval=FALSE}
+    setosa <- subset(..., ...)
+    ```
+
+d) Encontre os 5 menores valores da variável `Sepal.Length` para a espécie *Setosa*. Utilize a função `sort`. 
+
+e) Quantas plantas da espécie *Setosa* possuem largura de pétala (`Petal.Width`) entre 0.3 (inclusive) e 0.5 (exclusive)?
+
