@@ -18,4 +18,4 @@ Os exercícios deverão ser feitos individualmente, através da plataforma.
 # Plataforma Moodle
 
 * Resumo do curso [Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r) - em grupo
-* [Tarefa 1](Tarefa01/Tarefa01.html) e [versão RMarkdown para entrega](Tarefa01/Tarefa01.Rmd.zip) - individual
+* [Tarefa 1](Tarefa01/Tarefa01.html) [(versão RMarkdown para entrega)](Tarefa01/Tarefa01.Rmd.zip) - individual
