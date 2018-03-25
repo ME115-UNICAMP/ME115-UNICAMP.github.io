@@ -1,0 +1,103 @@
+---
+title: "ME115 - Linguagem R"
+subtitle: "Tarefa 2"
+author: "Profas. Samara Kiihl e Tatiana Benaglia"
+output: html_document
+---
+
+
+## Pepino-do-mar
+
+Você deverá trabalhar com dois conjuntos de dados:
+
+- `especimes.csv` contém uma lista de espécimes de pepinos-do-mar 
+presentes em museus de história natural nos EUA.
+
+- `nomina-valido.csv` contém a lista de nomes taxonômicos válidos atualmente 
+para pepinos-do-mar.
+
+
+Os dados são reais, contendo erros e inconsistências. O primeiro conjunto de dados é 
+mais desorganizado, pois agrega informações de diversos museus, e em alguns casos, as
+espécies não foram examinadas há anos e podem estar identificadas com nomes taxonômicos
+que atualmente sejam inválidos.
+
+
+Now, download the two data files inside your newly created `data` folder by
+typing in your script file:
+
+```{r,eval=FALSE}
+download.file("https://me115-unicamp.github.io/atividades/Tarefa02/especimes.csv",
+              "especimes.csv")
+download.file("https://me115-unicamp.github.io/atividades/Tarefa02/nomina-valido.csv",
+              "nomina-valido.csv")
+```
+
+Use a função `read.csv()` para carregar os dados na memória do R. O conjunto de dados `hol`
+deverá conver a informação sobre os espécimes e
+o conjunto de dados `nom` deverá conter a informação sobre os nomes válidos das espécies. 
+
+```{r}
+hol <- read.csv(file="specimens.csv", stringsAsFactors=FALSE)
+nom <- read.csv(file="nomina-valid.csv", stringsAsFactors=FALSE)
+```
+
+**Exercício 1.** Quantos espécimes de pepinos-do-mar estão incluídos no conjunto de dados `hol`?
+
+
+**Exercício 2.** A coluna `dwc.institutionCode` no conjunto de dados `hol` lista as instituições
+   em que os espécimes estão presentes:
+   
+   **a)** Quantas instituições contém espécimes de pepinos-do-mar?
+   
+   **b)** Faça um gráfico de barras para o total de cada instituição.
+
+
+**Exercício 3.** A coluna `dwc.year` indica quando os espécimes foram coletadas:
+
+   **a)** Quando o espécime mais antigo incluído no conjunto de dados foi coletado? (dica:
+     não foi no ano 1, leve em conta que os dados podem ter problemas e aplique correções, se necessário).
+     
+   **b)** Qual a proporção de espécimes no conjunto de dados que foi coletada entre os anos de 2006 e 2014 (inclusive)?
+   
+**Exercício 4.** A função `nzchar()` aplicada a um vetor retorna `TRUE` para posições no vetor
+   que não são vazias e `FALSE` caso contrário. Por exemplo,
+   `nzchar(c("u", "b", "", "", "e"))` retorna o vetor `c(TRUE, TRUE,
+   FALSE, FALSE, TRUE)`. 
+   A coluna `dwc.class` deve conter a informação da [classe](https://pt.wikipedia.org/wiki/Classe_(biologia)) dos espécimes (no caso, deveria ser sempre
+   "Holothuroidea"). Contudo, há informações faltantes. Use a função `nzchar`
+   para responder:
+   
+   **a)** Quantos espécimes não têm informação de classe?
+   
+   **b)** Para espécimes com informação faltante da classe, substitua pela informação da classe 
+   (lembre-se que todos são da classe "Holothuroidea").
+     
+**Exercício 5.**  Usando o conjunto de dados `nom` e as colunas `Subgenus.current` e
+   `Genus.current`, quais [gêneros](https://pt.wikipedia.org/wiki/Género_(biologia)) listados têm [subgêneros](https://pt.wikipedia.org/wiki/Subgénero)?
+   
+**Exercício 6.** Queremos combinar a informação dos conjuntos de dados `nom` e `hol`, 
+  para identificar os espécimes com nomes de espécies inválidos. Faremos isso usando a função `merge()`. 
+  Usando as opções padrão da função, `merge()` retorna apenas as linhas em que há concordância perfeita entre os conjuntos de dados. No nosso caso, isso é um problema, pois `nom` inclui apenas nomes válidos de espécies, e `hol` contém alguns nomes inválidos, de maneira que alguns dados seriam perdidos nesta junção. Leia o help de `merge()` para entender melhor a função.
+  
+  **a)** Usando a função `paste()`, crie uma nova coluna (chamada `genus_species`)
+    que contém o gênero (coluna `dwc.genus`) e nomes das espécies (coluna
+    `dwc.specificEpithet`) do conjunto de dados `hol`.
+    
+  **b)** Faça o mesmo no conjunto de dados `nom` (usando as colunas
+    `Genus.current` e `species.current`).
+    
+  **c)** Use `merge()` para combinar as informações de `hol` e `nom`. O conjunto de dados resultante 
+  deve conter o mesmo número de linhas que `hol`.
+    
+  **d)** Crie um conjunto de dados que contém a informação para os espécimes 
+    identificados com nomes de espécie inválidos (casos em que `Status` é
+    `NA`). Dica: espécimes apenas com indicação de gênero não devem ser considerados.
+    
+  **e)** Selecione apenas as colunas: `idigbio.uuid`, `dwc.genus`, `dwc.specificEpithet`,
+    `dwc.institutionCode`, `dwc.catalogNumber` do conjunto de dados criado acima e exporte como um 
+    arquivo CSV (usando a função `write.csv`) chamado
+    `invalido.csv`.
+
+
+
