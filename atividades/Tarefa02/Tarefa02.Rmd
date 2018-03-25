@@ -23,10 +23,9 @@ espécies não foram examinadas há anos e podem estar identificadas com nomes t
 que atualmente sejam inválidos.
 
 
-Now, download the two data files inside your newly created `data` folder by
-typing in your script file:
+Baixe os arquivos:
 
-```{r,eval=FALSE}
+```{r}
 download.file("https://me115-unicamp.github.io/atividades/Tarefa02/especimes.csv",
               "especimes.csv")
 download.file("https://me115-unicamp.github.io/atividades/Tarefa02/nomina-valido.csv",
@@ -38,9 +37,12 @@ deverá conver a informação sobre os espécimes e
 o conjunto de dados `nom` deverá conter a informação sobre os nomes válidos das espécies. 
 
 ```{r}
-hol <- read.csv(file="specimens.csv", stringsAsFactors=FALSE)
-nom <- read.csv(file="nomina-valid.csv", stringsAsFactors=FALSE)
+hol <- read.csv(file="especimes.csv", stringsAsFactors=FALSE)
+nom <- read.csv(file="nomina-valido.csv", stringsAsFactors=FALSE)
 ```
+
+Responda aos exercícios a seguir, usando aquivo .Rmd. Não apresente o código, apenas as respostas (use `echo=FALSE`).
+
 
 **Exercício 1.** Quantos espécimes de pepinos-do-mar estão incluídos no conjunto de dados `hol`?
 
