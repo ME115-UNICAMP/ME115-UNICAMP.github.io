@@ -41,7 +41,6 @@ hol <- read.csv(file="especimes.csv", stringsAsFactors=FALSE)
 nom <- read.csv(file="nomina-valido.csv", stringsAsFactors=FALSE)
 ```
 
-Responda aos exercícios a seguir, usando aquivo .Rmd. Não apresente o código, apenas as respostas (use `echo=FALSE`).
 
 
 **Exercício 1.** Quantos espécimes de pepinos-do-mar estão incluídos no conjunto de dados `hol`?
