@@ -15,6 +15,7 @@ Os exercícios deverão ser feitos individualmente, através da plataforma.
 * [Importing Data in R - Part 1](https://www.datacamp.com/courses/importing-data-in-r-part-1) - aula 9
 * [Writing Functions in R](https://www.datacamp.com/courses/writing-functions-in-r) - aulas 10 e 11
 * [Data Manipulation in R with dplyr](https://www.datacamp.com/courses/dplyr-data-manipulation-r-tutorial) - aulas 12 e 13
+* [Joining Data in R with dplyr](https://www.datacamp.com/courses/joining-data-in-r-with-dplyr) - aulas 14 e 15
 * [Introduction to the Tidyverse](https://www.datacamp.com/courses/introduction-to-the-tidyverse) - aulas  e 
 * [Communicating with Data in the Tidyverse](https://www.datacamp.com/courses/communicating-with-data-in-the-tidyverse) - aulas  e 
 
