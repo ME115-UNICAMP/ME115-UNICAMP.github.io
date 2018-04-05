@@ -17,13 +17,12 @@ Os exercícios deverão ser feitos individualmente, através da plataforma.
 * [Cleaning Data in R](https://www.datacamp.com/courses/cleaning-data-in-r) - aulas 12 e 13
 * [Importing and Cleaning Data in R: Case Studies](https://www.datacamp.com/courses/importing-cleaning-data-in-r-case-studies) - aulas 14 e 15
 * [Data Manipulation in R with dplyr](https://www.datacamp.com/courses/dplyr-data-manipulation-r-tutorial) - aulas 16 e 17
-* [Joining Data in R with dplyr](https://www.datacamp.com/courses/joining-data-in-r-with-dplyr) - aulas 18 e 19
-* [Data Visualization in R](https://www.datacamp.com/courses/data-visualization-in-r) - aulas 20 e 21
-* [Data Visualization with ggplot2 - part 1](https://www.datacamp.com/courses/data-visualization-with-ggplot2-1) - aulas 22 e 23
-* [Data Visualization with ggplot2 - part 2](https://www.datacamp.com/courses/data-visualization-with-ggplot2-2) - aulas 24 e 25
-* [Data Visualization with ggplot2 - part 3](https://www.datacamp.com/courses/data-visualization-with-ggplot2-3) - aulas 26 e 27
-* [Introduction to the Tidyverse](https://www.datacamp.com/courses/introduction-to-the-tidyverse) - aulas 28 e 29
-* [Communicating with Data in the Tidyverse](https://www.datacamp.com/courses/communicating-with-data-in-the-tidyverse) - aulas  30 e 31
+* [Data Visualization in R](https://www.datacamp.com/courses/data-visualization-in-r) - aulas 18 e 19
+* [Data Visualization with ggplot2 - part 1](https://www.datacamp.com/courses/data-visualization-with-ggplot2-1) - aulas 20 e 21
+* [Data Visualization with ggplot2 - part 2](https://www.datacamp.com/courses/data-visualization-with-ggplot2-2) - aulas 22 e 23
+* [Data Visualization with ggplot2 - part 3](https://www.datacamp.com/courses/data-visualization-with-ggplot2-3) - aulas 24 e 25
+* [Introduction to the Tidyverse](https://www.datacamp.com/courses/introduction-to-the-tidyverse) - aulas 26 e 27
+* [Communicating with Data in the Tidyverse](https://www.datacamp.com/courses/communicating-with-data-in-the-tidyverse) - aulas  28 e 29
 
 # Plataforma Moodle
 
