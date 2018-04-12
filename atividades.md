@@ -31,3 +31,11 @@ Os exercícios deverão ser feitos individualmente, através da plataforma.
 * Resumo do curso [Introduction to R](https://www.datacamp.com/courses/free-introduction-to-r) - em grupo
 * [Tarefa 1](Tarefa01/Tarefa01.html) [(versão RMarkdown para entrega)](Tarefa01/Tarefa01.Rmd.zip) - individual
 * [Tarefa 2](Tarefa02/Tarefa02.html) [(versão RMarkdown para entrega)](Tarefa02/Tarefa02.Rmd.zip) - individual
+
+
+
+
+[<img src="https://imgs.xkcd.com/comics/automation.png">](https://xkcd.com/1319/)
+
+
+
