@@ -34,8 +34,3 @@ Os exercícios deverão ser feitos individualmente, através da plataforma.
 
 
 
-
-[<img src="https://imgs.xkcd.com/comics/automation.png">](https://xkcd.com/1319/)
-
-
-
