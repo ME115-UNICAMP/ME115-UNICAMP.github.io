@@ -1,6 +1,6 @@
 ---
 title: "ME115 - Linguagem R"
-subtitle: "Tarefa 2"
+subtitle: "Tarefa 3"
 author: "Profas. Samara Kiihl e Tatiana Benaglia"
 output: html_document
 ---
