@@ -1,0 +1,169 @@
+---
+title: "ME115 - Linguagem R"
+subtitle: "Tarefa 2"
+author: "Profas. Samara Kiihl e Tatiana Benaglia"
+output: html_document
+---
+
+
+## Introdução
+
+Poluentes são monitorados continuamente em diversas regiões. Descompactando o arquivo .zip, temos a pasta `dados`, que contém observações coletadas de diversos monitores ao longo do tempo. Cada arquivo representa dados de um monitor específico, identificado pela variável `ID` e pelo nome do arquivo. A quantidade de [material particulado](http://cetesb.sp.gov.br/ar/poluentes/) dos poluentes nitrato e sulfato foi coletada ao longo do tempo.
+
+Você deverá entregar uma arquivo `.zip` com as 3 funções abaixo (com esses mesmos nomes exatamente), descritas nas próximas seções:
+
+* `media_poluente.R`
+* `completo.R`
+* `corr.R`
+
+
+## Parte 1
+
+Escreva a função `media_poluente` que calcula a média de um poluente (sulfato ou nitrato) cujos valores foram coletados através de uma lista de monitores.
+
+A função `media_poluente` e deve ter 3 argumentos:  `diretorio`, `poluente` e `id`. Ao listarmos os IDs dos monitores através de um vetor, a função `media_poluente` irá ler os valores de material particulado ($\mu g/m^3$) coletado pelos monitores cujos dados estão no diretório e retornará a média do poluente, ignorando os valores faltantes (indicados por `NA`). Um protótipo da função é:
+
+```{r,eval=FALSE}
+media_poluente <- function(diretorio, poluente, id = 1:332) {
+        ## 'diretorio' é um vetor de caractere de comprimento 1 indicando
+        ## o caminho dos arquivos .CSV
+
+        ## 'poluente' é um vetor de caractere de comprimento 1 indicando
+        ## o nome do poluente para o qual queremos calcular a média:
+        ## "sulfato" ou "nitrato".
+
+        ## 'id' é um vetor de valores inteiros indicando os números dos IDs dos monitores
+        ## a serem considerados no cálculo
+
+        ## Retorna a média do poluente em todos os monitores listados no vetor 'id'
+        ## (ignorando NA)
+        ## Aviso: Não arredonde o resultado!
+}
+
+```
+
+**IMPORTANTE:** Salve seu código com nome `media_poluente.R`.
+
+Exemplos de saída da função:
+
+```{r,eval=FALSE}
+source("media_poluente.R")
+media_poluente("dados", "sulfato", 1:10)
+## [1] 4.064
+media_poluente("dados", "nitrato", 70:72)
+## [1] 1.706
+media_poluente("dados", "nitrato", 23)
+## [1] 1.281
+```
+
+
+## Parte 2
+
+Escreva uma função que leia arquivos em uma pasta e retorne o número de casos sem dados faltantes de cada arquivo. A função deve retornar um `data.frame` em que a primeira coluna seja o nome do arquivo e a segunda coluna o número de casos sem dados faltantes naquele arquivo.
+
+A seguir um protótipo da função:
+
+```{r,eval=FALSE}
+completo <- function(diretorio, id = 1:332) {
+        ## 'diretorio' é um vetor de caractere de comprimento 1 indicando
+        ## o caminho dos arquivos .CSV
+
+        ## 'id' é um vetor de valores inteiros indicando os números dos IDs dos monitores
+        ## a serem considerados no cálculo
+        
+        ## Retorna um data frame:
+        ## id nobs
+        ## 1  117
+        ## 2  1041
+        ## ...
+        ## onde 'id' é o ID do monitor e 'nobs' é o número de observações completas
+}
+```
+
+
+**IMPORTANTE:** Salve seu código com nome `completo.R`.
+
+Exemplos de saída da função:
+
+```{r,eval=FALSE}
+source("completo.R")
+completo("dados", 1)
+##   id nobs
+## 1  1  117
+completo("dados", c(2, 4, 8, 10, 12))
+##   id nobs
+## 1  2 1041
+## 2  4  474
+## 3  8  192
+## 4 10  148
+## 5 12   96
+completo("dados", 30:25)
+##   id nobs
+## 1 30  932
+## 2 29  711
+## 3 28  475
+## 4 27  338
+## 5 26  586
+## 6 25  463
+completo("dados", 3)
+##   id nobs
+## 1  3  243
+```
+
+
+## Parte 3
+
+Escreva uma função que considere os arquivos em uma pasta e um limiar para observações completas e calcula a correlação entre os valores medidos para sulfato e nitrato para monitores atendendo ao limiar de observações não faltantes.
+A função deverá retornar um vetor de correlações para os monitores que satisfazem o valor do limiar. Se nenhum dos monitores satisfaz o limiar, a função deve retornar um vetor numérico de comprimento 0.
+
+A seguir um protótipo da função:
+
+```{r,eval=FALSE}
+corr <- function(diretorio, limiar = 0) {
+        ## 'diretorio' é um vetor de caractere de comprimento 1 indicando
+        ## o caminho dos arquivos .CSV
+
+        ## 'limiar' é um vetor numérico de comprimento 1 indicando
+        ## o número de observações sem dados faltantes (em todas as variáveis)
+        ## exigido para que se calcule a correlação entre to compute the correlation between
+        ## nitrato e sulfato; o default é 0
+
+        ## Retorna um vetor numérico de correlações
+        ## Aviso: Não arredonde o resultado!
+}
+```
+
+Use a função `cor` do R e leia atentamente a documentação da função.
+
+**IMPORTANTE:** Salve seu código com nome `corr.R`.
+
+Exemplos de saída da função:
+
+```{r,eval=FALSE}
+source("corr.R")
+source("completo.R")
+cr <- corr("dados", 150)
+head(cr)
+## [1] -0.01896 -0.14051 -0.04390 -0.06816 -0.12351 -0.07589
+summary(cr)
+##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+## -0.2110 -0.0500  0.0946  0.1250  0.2680  0.7630
+cr <- corr("dados", 400)
+head(cr)
+## [1] -0.01896 -0.04390 -0.06816 -0.07589  0.76313 -0.15783
+summary(cr)
+##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+## -0.1760 -0.0311  0.1000  0.1400  0.2680  0.7630
+cr <- corr("dados", 5000)
+summary(cr)
+##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+## 
+length(cr)
+## [1] 0
+cr <- corr("dados")
+summary(cr)
+##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+## -1.0000 -0.0528  0.1070  0.1370  0.2780  1.0000
+length(cr)
+## [1] 323
+```
