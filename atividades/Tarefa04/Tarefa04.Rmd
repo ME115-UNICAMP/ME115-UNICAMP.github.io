@@ -1,0 +1,170 @@
+---
+title: "ME115 - Linguagem R"
+subtitle: "Tarefa 4"
+author: "Profas. Samara Kiihl e Tatiana Benaglia"
+output: html_document
+---
+
+# Manipulação de Dados usando `dplyr`
+
+## Introdução
+
+Usaremos o pacote `dplyr` para manipular efetivamente e calcular condicionalmente as estatísticas sumárias sobre subconjuntos de um conjunto de dados “grande” contendo muitas observações.
+
+
+### Os dados
+
+Usaremos um conjunto de dados de expressão gênica de levedura. Esta é uma versão "limpa" dos dados de expressão gênica de [Brauer et al. Coordination of growth rate, cell cycle, stress response, and metabolic activity in yeast. (2008) Mol Biol Cell 19: 352-367](https://www.ncbi.nlm.nih.gov/pubmed/17959824). 
+
+Esses dados são de um microarranjo de expressão gênica, e neste artigo os autores estão examinando a relação entre taxa de crescimento e expressão gênica em culturas de leveduras limitadas por um dos seis nutrientes diferentes (glicose, leucina, amônio, sulfato, fosfato e uracila). Se você propiciar à levedura um meio rico em nutrientes, exceto restringir o fornecimento de um único nutriente, poderá controlar a taxa de crescimento a qualquer taxa que escolher. Por fome de levedura de nutrientes específicos, você pode encontrar genes que:
+
+1. **Aumentam ou diminuem sua expressão em resposta à taxa de crescimento**. Os padrões de expressão dependentes da taxa de crescimento podem nos dizer muito sobre o controle do ciclo celular e como a célula responde ao estresse. Os autores descobriram que a expressão de $>25\%$ de todos os genes de levedura está linearmente correlacionada com a taxa de crescimento, independente do nutriente limitante. Eles também descobriram que o subconjunto de genes correlacionados negativamente ao crescimento é enriquecido para funções peroxissomais, e genes positivamente correlacionados codificam principalmente funções ribossômicas.
+
+2. **Respondam de forma diferente quando diferentes nutrientes estão sendo limitados**. Se você vir genes específicos que respondem de maneira muito diferente quando um nutriente é fortemente restrito, esses genes podem estar envolvidos no transporte ou no metabolismo desse nutriente específico.
+
+Você pode baixar a versão já processada dos dados no arquivo chamado [brauer2007_tidy.csv](https://4va.github.io/biodatasci/data/brauer2007_tidy.csv) (link ou anexo). 
+
+## Leitura dos Dados
+
+Carregue os pacotes `dplyr` e `readr` para ler e exibir esses dados de maneira mais eficiente. Use a função `read_csv()` do pacote `readr` para ler os dados e salve num objeto. 
+
+```{r, message = FALSE}
+# Carregar pacotes
+library(readr)
+library(dplyr)
+
+# Leitura dos dados
+ydat <- read_csv(file="dados/brauer2007_tidy.csv")
+```
+
+Para visualizar os dados, veja as opções abaixo:
+```{r, eval=FALSE}
+# Visualizar os dados
+ydat
+
+# Semelhante ao str()
+glimpse(ydat)
+
+# Opcionalmente, visualize os dados numa janela nova
+View(ydat)
+```
+
+
+Quando você lê os dados com o pacote readr (usando a função `read_csv()`) e já estava com o pacote `dplyr` carregado, o objeto salvo assume essa classe “especial” de data frames chamada `tbl` (tibble). Esse tipo de objeto facilita o uso do pacote `dplyr`, principalmente quando estamos trabalhando com grandes bancos de dados. Verifique a classe do objeto salvo usando o comando:
+
+```{r, eval=FALSE}
+class(ydat)
+```
+
+O pacote `dplyr` oferece vários verbos úteis para o gerenciamento de dados que vocês aprenderam no tutorial do DataCamp. Sozinhos eles não fazem nada que a base R não possa fazer. Aqui estão alguns dos verbos com os quais trabalharemos nesta lição:
+
+* filter()
+* select()
+* mutate()
+* arrange()
+* summarize()
+* group_by()
+
+Todos usam um `data.frame` ou `tbl_df` como entrada para o primeiro argumento e retornam um `data.frame` ou `tbl_df` como saída.
+
+## Exercícios
+
+1. Selecione os dados onde o processo biológico da ontologia genética (a variável `bp`) é a “biossíntese de leucina” e o nutriente limitante foi a Leucina. Armazene sua resposta em um novo dataframe `leudat`, que deve ser um dataframe de 24 x 7. Quantos genes resultantes e quantas taxas de crescimento temos nessa seleção?
+
+    ```{r, eval = FALSE}
+    leudat <- filter()
+    ```
+
+2. Use `arrange()` no resultado acima para organizar os dados por gene e taxa de crescimento.
+
+    ```{r, eval = FALSE}
+    arrange()
+    ```
+
+3. Considerando os dados originais `ydat`, use o verbo `summarize()` para obter as seguintes estatísticas:
+
+    * nobs: o número de observações 
+    * ngenes: o número de genes distintos (`symbol`)
+    * meanexp: a expressão média para todos os genes 
+    * r: correlação entre taxa e expressão (`rate` e `expression`)
+
+    ```{r, eval=FALSE}
+    summarize(ydat,           )
+    ```
+
+
+4. Crie um novo objeto chamado `nogo` que não contenha as anotações GO (colunas `bp` e `mf`).
+
+    ```{r, eval=FALSE}
+    # crie um novo conjunto de dados sem as anotações go.
+    nogo <- select()
+    ```
+
+    Veja como os dados originais `ydat` estão inalterados. Mude para eval=TRUE`. 
+
+    ```{r, eval=FALSE}
+    ydat
+    ```
+
+5. O nível de expressão relatado aqui é o $log_2$ do sinal da amostra dividido pelo sinal no canal de referência. Para os dados `nogo`, usando (`mutate()`), adicione uma nova variável chamada `signal`, que é a taxa real do sinal bruto em vez do sinal transformado em log.
+
+    ```{r, eval=FALSE}
+    mutate()
+    ```
+
+6. O `mutate()` também tem um pequeno recurso interessante, pois é "preguiçoso". Você pode alterar e adicionar uma variável e, em seguida, continuar a mutação para adicionar mais variáveis com base nessa variável que você acabou de adicionar no mesmo comando. Então, repita o comando acima, mas agora crie também uma outra coluna chamada `sigsr` que seja a raiz quadrada da relação do sinal.
+
+    ```{r, eval=FALSE}
+    nogo <- mutate()
+    ```
+
+    Veja os gráficos a seguir (não se preocupe com os detalhes do código ainda, pois estudaremos isso futuramente). Por que você acha que os dados foram transformados antes da análise?
+
+
+    ```{r, fig.width=10, fig.height=4, message=FALSE, warning=FALSE, echo=FALSE}
+    library(tidyr)
+    library(ggplot2)
+    ydat %>% 
+        select(-bp, -mf) %>% 
+        mutate(signal = 2^expression, sigsr = sqrt(signal)) %>% 
+        gather(unit, value, expression:sigsr) %>% 
+        ggplot(aes(value)) + geom_histogram(bins=100) + facet_wrap(~unit, scales="free")
+    ```
+
+
+7. Suponha que quiséssemos obter a correlação entre a taxa de crescimento e expressão separadamente para cada nutriente limitante apenas para genes na via de biossíntese de leucina e retornar uma lista ordenada desses coeficientes de correlação arredondados para dois dígitos? Mentalmente faríamos algo assim:
+
+    * Pegue o conjunto de dados ydat
+    * então filter() para genes na via de biossíntese de leucina
+    * então group_by() o nutriente limitante
+    * então summarize() para obter a correlação ( cor() ) entre taxa e expressão
+    * então mutate() para arredondar o resultado do cálculo acima para dois dígitos significativos
+    * então arrange() pelo coeficiente de correlação arredondado acima
+    
+    Isso é executado pelo seguinte código:
+    
+    ```{r}
+    arrange(
+      mutate(
+        summarize(
+          group_by(
+            filter(ydat, bp=="leucine biosynthesis"), 
+            nutrient), 
+        r=cor(rate, expression)), 
+      r=round(r, 2)), 
+    r)
+    ```
+
+    O código pode ficar muito mais elegante usando `%>%`! Reescreva o código acima usando pipe. Basicamente você deve trocar todos os "então" da descrição do problema pelo simbolo `%>%`.
+
+    ```{r, eval=FALSE}
+    ## Complete o código abaixo
+    ydat %>% 
+        filter() ...
+    ```
+
+8. Mostre os valores limitantes de nutrientes e expressão para o gene ADH2 quando a taxa de crescimento é restrita a 0.05. **Dica:** 2 pipes: `filter()` e `select()`.
+
+9. Quais são os quatro genes mais expressos quando a taxa de crescimento é restrita a 0.05 restringindo a glicose? Mostrar apenas o símbolo, o valor da expressão e os termos GO. **Dica:** 4 pipes: `filter()`, `arrange()`, `filter()` e `select()`.
+
+10. Quando a taxa de crescimento é restrita a 0.05, qual é o nível médio de expressão em todos os genes no processo biológico de “resposta ao estresse”, separadamente para cada nutriente limitante? E quanto aos genes no processo biológico da "biossíntese de proteínas"? **Dica:** 3 pipes: `filter()`, `group_by()`, `summarize()`.
