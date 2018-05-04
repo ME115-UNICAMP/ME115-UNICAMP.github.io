@@ -167,4 +167,4 @@ Todos usam um `data.frame` ou `tbl_df` como entrada para o primeiro argumento e 
 
 9. Quais são os quatro genes mais expressos quando a taxa de crescimento é restrita a 0.05 restringindo a glicose? Mostrar apenas o símbolo, o valor da expressão e os termos GO. **Dica:** 4 pipes: `filter()`, `arrange()`, `filter()` e `select()`.
 
-10. Quando a taxa de crescimento é restrita a 0.05, qual é o nível médio de expressão em todos os genes no processo biológico de “resposta ao estresse”, separadamente para cada nutriente limitante? E quanto aos genes no processo biológico da "biossíntese de proteínas"? **Dica:** 3 pipes: `filter()`, `group_by()`, `summarize()`.
+10. Quando a taxa de crescimento é restrita a 0.05, qual é o nível médio de expressão em todos os genes no processo biológico de "resposta ao estresse" (response to stress), separadamente para cada nutriente limitante? E quanto aos genes no processo biológico da "biossíntese de proteínas" (protein biosynthesis)? **Dica:** 3 pipes: `filter()`, `group_by()`, `summarize()`.
