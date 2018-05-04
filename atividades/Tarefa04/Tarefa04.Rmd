@@ -69,7 +69,7 @@ Todos usam um `data.frame` ou `tbl_df` como entrada para o primeiro argumento e 
 
 ## Exercícios
 
-1. Selecione os dados onde o processo biológico da ontologia genética (a variável `bp`) é a “biossíntese de leucina” e o nutriente limitante foi a Leucina. Armazene sua resposta em um novo dataframe `leudat`, que deve ser um dataframe de 24 x 7. Quantos genes resultantes e quantas taxas de crescimento temos nessa seleção?
+1. Selecione os dados onde o processo biológico da ontologia genética (a variável `bp`) é a “biossíntese de leucina” (leucine biosynthesis) e o nutriente limitante foi a Leucina (Leucine). Armazene sua resposta em um novo dataframe `leudat`, que deve ser um dataframe de 24 x 7. Quantos genes resultantes e quantas taxas de crescimento distintas temos nessa seleção?
 
     ```{r, eval = FALSE}
     leudat <- filter()
