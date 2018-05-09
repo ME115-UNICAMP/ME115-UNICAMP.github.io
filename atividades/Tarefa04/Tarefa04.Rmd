@@ -9,14 +9,14 @@ output: html_document
 
 ## Introdução
 
-Usaremos o pacote `dplyr` para manipular efetivamente e calcular condicionalmente as estatísticas sumárias sobre subconjuntos de um conjunto de dados “grande” contendo muitas observações.
+Usaremos o pacote `dplyr` para manipular efetivamente e calcular  estatísticas sumárias sobre subconjuntos de um conjunto de dados “grande” contendo muitas observações.
 
 
 ### Os dados
 
-Usaremos um conjunto de dados de expressão gênica de levedura. Esta é uma versão "limpa" dos dados de expressão gênica de [Brauer et al. Coordination of growth rate, cell cycle, stress response, and metabolic activity in yeast. (2008) Mol Biol Cell 19: 352-367](https://www.ncbi.nlm.nih.gov/pubmed/17959824). 
+Usaremos um conjunto de dados de [expressão gênica](https://pt.wikibooks.org/wiki/Biologia_celular/Expressão_genética) de levedura. Esta é uma versão "limpa" dos dados de expressão gênica de [Brauer et al. Coordination of growth rate, cell cycle, stress response, and metabolic activity in yeast. (2008) Mol Biol Cell 19: 352-367](https://www.ncbi.nlm.nih.gov/pubmed/17959824). 
 
-Esses dados são de um microarranjo de expressão gênica, e neste artigo os autores estão examinando a relação entre taxa de crescimento e expressão gênica em culturas de leveduras limitadas por um dos seis nutrientes diferentes (glicose, leucina, amônio, sulfato, fosfato e uracila). Se você propiciar à levedura um meio rico em nutrientes, exceto restringir o fornecimento de um único nutriente, poderá controlar a taxa de crescimento a qualquer taxa que escolher. Por fome de levedura de nutrientes específicos, você pode encontrar genes que:
+Esses dados são de um [microarranjo de expressão gênica](https://www.youtube.com/watch?v=0ATUjAxNf6U), e neste artigo os autores estão examinando a relação entre taxa de crescimento e expressão gênica em culturas de leveduras limitadas por um entre seis nutrientes diferentes: glicose, leucina, amônio, sulfato, fosfato e uracila. Se você propiciar à levedura um meio rico em nutrientes, exceto restringir o fornecimento de um único nutriente, poderá controlar a taxa de crescimento a qualquer taxa que escolher. Com a falta de nutrientes específicos, você pode encontrar genes na levedura que:
 
 1. **Aumentam ou diminuem sua expressão em resposta à taxa de crescimento**. Os padrões de expressão dependentes da taxa de crescimento podem nos dizer muito sobre o controle do ciclo celular e como a célula responde ao estresse. Os autores descobriram que a expressão de $>25\%$ de todos os genes de levedura está linearmente correlacionada com a taxa de crescimento, independente do nutriente limitante. Eles também descobriram que o subconjunto de genes correlacionados negativamente ao crescimento é enriquecido para funções peroxissomais, e genes positivamente correlacionados codificam principalmente funções ribossômicas.
 
@@ -163,7 +163,7 @@ Todos usam um `data.frame` ou `tbl_df` como entrada para o primeiro argumento e 
         filter() ...
     ```
 
-8. Mostre os valores limitantes de nutrientes e expressão para o gene ADH2 quando a taxa de crescimento é restrita a 0.05. **Dica:** 2 pipes: `filter()` e `select()`.
+8. Mostre os nutrientes e valores de expressão para o gene ADH2 quando a taxa de crescimento é restrita a 0.05. **Dica:** 2 pipes: `filter()` e `select()`.
 
 9. Quais são os quatro genes mais expressos quando a taxa de crescimento é restrita a 0.05 restringindo a glicose? Mostrar apenas o símbolo, o valor da expressão e os termos GO. **Dica:** 4 pipes: `filter()`, `arrange()`, `filter()` e `select()`.
 
