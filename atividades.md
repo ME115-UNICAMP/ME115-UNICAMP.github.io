@@ -20,11 +20,10 @@ Os exercícios deverão ser feitos individualmente, através da plataforma.
 * [Data Visualization in R](https://www.datacamp.com/courses/data-visualization-in-r) - aulas 18 e 19
 * [Data Visualization with ggplot2 - part 1](https://www.datacamp.com/courses/data-visualization-with-ggplot2-1) - aulas 20 e 21
 * [Data Visualization with ggplot2 - part 2](https://www.datacamp.com/courses/data-visualization-with-ggplot2-2) - aulas 22 e 23
-* [Data Visualization with ggplot2 - part 3](https://www.datacamp.com/courses/data-visualization-with-ggplot2-3) - aulas 24 e 25
-* [Exploratory Data Analysis](https://www.datacamp.com/courses/exploratory-data-analysis) - aulas 26 e 27
-* [Exploratory Data Analysis in R: Case Study](https://www.datacamp.com/courses/exploratory-data-analysis-in-r-case-study) - aulas 28 e 29
-* [Introduction to the Tidyverse](https://www.datacamp.com/courses/introduction-to-the-tidyverse) - aulas 30 e 31
-* [Communicating with Data in the Tidyverse](https://www.datacamp.com/courses/communicating-with-data-in-the-tidyverse) - aulas  32 e 33
+* [Exploratory Data Analysis](https://www.datacamp.com/courses/exploratory-data-analysis) - aulas 24 e 25
+* [Exploratory Data Analysis in R: Case Study](https://www.datacamp.com/courses/exploratory-data-analysis-in-r-case-study) - aulas 26 e 27
+* [Introduction to the Tidyverse](https://www.datacamp.com/courses/introduction-to-the-tidyverse) - aulas 28 e 29
+* [Communicating with Data in the Tidyverse](https://www.datacamp.com/courses/communicating-with-data-in-the-tidyverse) - aulas  30 e 31
 
 # Plataforma Moodle
 
