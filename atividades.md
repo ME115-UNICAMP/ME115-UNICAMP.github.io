@@ -32,5 +32,6 @@ Os exercícios deverão ser feitos individualmente, através da plataforma.
 * [Tarefa 2](Tarefa02/Tarefa02.html) [(versão RMarkdown para entrega)](Tarefa02/Tarefa02.Rmd.zip) - individual
 * [Tarefa 3](Tarefa03/Tarefa03.html) [(versão RMarkdown e conjunto de dados)](Tarefa03/Archive.zip) - individual
 * [Tarefa 4](Tarefa04/Tarefa04.html) [(versão RMarkdown e conjunto de dados)](Tarefa04/Archive.zip) - individual
+* [Tarefa 5](Tarefa05/Tarefa05.html) [(versão RMarkdown e conjunto de dados)](Tarefa05/Archive.zip) - individual
 
 

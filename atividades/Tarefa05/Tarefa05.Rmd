@@ -1,0 +1,85 @@
+---
+title: "ME115 - Linguagem R"
+subtitle: "Tarefa 5"
+author: "Profas. Samara Kiihl e Tatiana Benaglia"
+output: html_document
+---
+
+# Visualização de Dados usando `ggplot2`
+
+### Os dados
+
+Usaremos o mesmo conjunto de dados da tarefa anterior, mas agora focando na visualização.
+
+Esse é um conjunto de dados de [expressão gênica](https://pt.wikibooks.org/wiki/Biologia_celular/Expressão_genética) de levedura. Esta é uma versão "limpa" dos dados de expressão gênica de [Brauer et al. Coordination of growth rate, cell cycle, stress response, and metabolic activity in yeast. (2008) Mol Biol Cell 19: 352-367](https://www.ncbi.nlm.nih.gov/pubmed/17959824). 
+
+Esses dados são de um [microarranjo de expressão gênica](https://www.youtube.com/watch?v=0ATUjAxNf6U), e neste artigo os autores estão examinando a relação entre taxa de crescimento e expressão gênica em culturas de leveduras limitadas por um entre seis nutrientes diferentes: glicose, leucina, amônio, sulfato, fosfato e uracila. Se você propiciar à levedura um meio rico em nutrientes, exceto restringir o fornecimento de um único nutriente, poderá controlar a taxa de crescimento a qualquer taxa que escolher. Com a falta de nutrientes específicos, você pode encontrar genes na levedura que:
+
+1. **Aumentam ou diminuem sua expressão em resposta à taxa de crescimento**. Os padrões de expressão dependentes da taxa de crescimento podem nos dizer muito sobre o controle do ciclo celular e como a célula responde ao estresse. Os autores descobriram que a expressão de $>25\%$ de todos os genes de levedura está linearmente correlacionada com a taxa de crescimento, independente do nutriente limitante. Eles também descobriram que o subconjunto de genes correlacionados negativamente ao crescimento é enriquecido para funções peroxissomais, e genes positivamente correlacionados codificam principalmente funções ribossômicas.
+
+2. **Respondam de forma diferente quando diferentes nutrientes estão sendo limitados**. Ao observamos genes específicos respondendo de maneira diferente quando um nutriente não é fornecido, temos alguma evidência de que esses genes podem estar envolvidos no transporte ou no metabolismo desse nutriente específico.
+
+Você pode baixar a versão já 'limpa' dos dados no arquivo chamado [brauer2007_tidy.csv](https://4va.github.io/biodatasci/data/brauer2007_tidy.csv) (link ou anexo). 
+
+## Leitura dos Dados
+
+Carregue os pacotes `dplyr` e `readr`. Use a função `read_csv()` para ler os dados e guarde-os em um objeto chamado `ydat`. 
+
+```{r, message = FALSE, eval=FALSE}
+# Carregar pacotes e ler banco dos dados
+ydat <- 
+```
+
+
+## Exercícios
+
+Os gráficos abaixo deverão ser feitos usando o pacote `ggplot2`. 
+
+### Parte 1
+
+Vamos começar olhando a distribuição dos valores da expressão.
+
+1. Faça um histograma da variável que representa a expressão gênica e escolha o número de bins igual a 100. Esse histograma se parece com alguma distribuição conhecida?
+
+2. Faça o mesmo histograma acima, mas dentro de `aes()`, escolha o preenchimento de acordo com o nutriente, ou seja, `fill = nutrient`. Essa é uma boa maneira de visualizar a distribuição da expressão por nutriente? Comente.
+
+3. Separe os histogramas por nutrientes usando `facets` com 3 colunas. **Dica:** Use `facet_wrap()`. 
+
+
+### Parte 2
+
+Vamos comparar os genes com valores de expressão médio mais altos e mais baixos.
+
+Para extrair essas informações dos dados, siga a seguinte lógica:
+
+1. Pegue o conjunto de dados original `ydat`
+2. Agrupe por símbolo (`symbol`)
+3. Use `summarize()` para calcular a média da expressão para cada símbolo
+4. Use `arrange()` para colocar as médias em ordem decrescente
+5. Filtre a primeira ou a última linha
+
+Implemente os passos acima usando `dplyr` e `%>%`.
+
+O resultado nos diz que o gene com expressão média mais alta é _____, enquanto que o gene com a expressão média mais baixa é ____.
+
+
+4. Extraia um subconjunto dos dados que contenha apenas os genes encontrados no item anterior. Faça um gráfico de pontos com os genes no eixo x e a expressão no eixo y, com as cores dos pontos variando de acordo com o nutriente e o tamanho dos pontos igual a 2. **Dica:** Para que os pontos não fiquem sobrepostos, você pode alterar a posição dos pontos no `geom_point()` usando `position = "jitter"` ou usando `geom_jitter()` diretamente. Experimente `width = 0.2`.
+
+    O que você nota em relação à glicose?
+    
+
+### Parte 3
+
+5. Usando `dplyr`, crie um data frame com as médias da expressão para toda combinação de taxa (`rate`) e nutriente (`nutrient`). **Dica:** use `group_by()` e `summarize()`. 
+
+    a) Faça um gráfico desses dados com a taxa no eixo x e a expressão média no eixo y. As linhas devem ser coloridas de acordo com o nutriente.
+
+    b) Adicione uma linha pontilhada preta (`lty = 3`) que representa a expressão média suavizada para todas as combinações de nutrientes e taxas. 
+    
+    c) Mude o eixo x para escala contínua incluindo todos os possíveis valores de taxa (`rate`). **Dica:** `scale_x_continuous()`. 
+
+    d) Mude o título do eixo x para "Taxa" e o nome do eixo y para "Expressão Média". Altere também o título do gráfico para "Expressão Média por Taxa (Brauer)". 
+
+    e) Altere o tema do gráfico para algo da sua preferência que não seja o default. 
+
+    f) Salve o gráfico que você acabou de fazer para um arquivo pdf de tamanho 10x6 usando uma função do `ggplot2`.
