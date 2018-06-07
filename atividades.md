@@ -33,4 +33,8 @@ Os exercícios deverão ser feitos individualmente, através da plataforma.
 * [Tarefa 4](Tarefa04/Tarefa04.html) [(versão RMarkdown e conjunto de dados)](Tarefa04/Archive.zip) - individual
 * [Tarefa 5](Tarefa05/Tarefa05.html) [(versão RMarkdown e conjunto de dados)](Tarefa05/Archive.zip) - individual
 
+# Projeto Final
+
+[Instruções](Projeto/ProjetoFinal.html) para o Projeto Final
+
 

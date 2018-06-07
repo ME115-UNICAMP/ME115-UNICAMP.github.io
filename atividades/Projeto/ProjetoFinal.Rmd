@@ -1,0 +1,55 @@
+---
+title: "ME115 - Linguagem R"
+subtitle: "Projeto Final"
+author: "Profas. Samara Kiihl e Tatiana Benaglia"
+output: html_document
+---
+
+# Projeto Final
+
+#### Introdução
+
+Nesse projeto vocês irão aplicar todo conhecimento adquirido com os tutoriais e tarefas desenvolvidos ao longo do semestre. 
+
+O projeto será executado em duplas. Cada dupla deverá selecionar um conjunto de dados de seu interesse disponível na plataforma Kaggle  ([https://www.kaggle.com/datasets](https://www.kaggle.com/datasets)) com o qual irá trabalhar. Veja que é possível filtrar os bancos de dados por formato, tamanho do arquivo e assunto (*tag*). 
+
+Baseando-se nos dados selecionados, cada dupla irá elaborar uma pergunta de interesse que deverá ser respondida utilizando métodos estatísticos. Será obrigatório que o projeto contemple os principais tópicos vistos durante o curso, descritos a seguir, com respectivos pacotes:
+
+- Importação do banco de dados: diretamente da web (recomendado) ou baixando o arquivo csv/txt (`readr`)
+
+- Limpeza e Manipulação dos dados (`tidyr` e `dplyr`)
+
+- Visualização (`ggplot2`)
+
+- Análise Exploratória e/ou Descritiva
+
+
+#### Relatório
+
+O relatório deverá ser feito de maneira **reprodutível** utilizando o R Markdown, que deverá gerar um arquivo `.pdf` com no máximo **8 páginas**. Códigos, mensagens e avisos do R não devem estar visíveis no `.pdf` do relatório. Vocês irão entregar os arquivos `.Rmd` e `.pdf`. O envio deverá ser feito SOMENTE via Moodle, no campo especificado para o projeto. Atentem-se para o limite de 10mb para cada arquivo submetido via Moodle e para o prazo de envio. Não serão aceitas submissões fora do prazo.
+
+
+Cada dupla deverá apresentar no relatório:
+
+- **Título**
+
+- **Introdução**: apresentação do problema/pergunta de interesse.
+
+- **Banco de Dados**: descrição detalhadada das variáveis, incluindo o *link* para obtenção dos dados. 
+
+- **Análise Exploratória e/ou Descritiva**: principais estatísticas sumárias e gráficos relevantes para responder a pergunta de interesse.
+
+- **Considerações finais**
+
+- **Bibliografia** (opcionalmente, se necessário)
+
+Para auxiliar na escrita do relatório, recomendamos os livros:
+
+* Peng, R. D. (2016) [Report Writing for Data Science in R](https://leanpub.com/reportwriting).
+* Leek, J. (2015) [The Elements of Data Analytic Style](https://leanpub.com/datastyle).
+
+**Obs:** caso algum(s) arquivo(s) exceda(m) 10mb, liste seu(s) link(s) (do kaggle, dropbox, google drive, etc...) separadamente, no campo de comentário do envio. Certifiquem-se que o(s) link(s) esteja(m) público(s) e funcionando corretamente; no seu código use comentários para explicar quando é necessário fazer download de eventuais arquivos auxiliares antes de rodar o `.Rmd`.
+
+#### Apresentação
+
+Cada dupla deverá preparar uma apresentação de 5 minutos que será submetida SOMENTE via Moodle em formato `.pdf`. O arquivo deverá ser submetido até a data limite especificada pelo professor. A data e local da apresentação serão comunicados pelo professor também via Moodle.
