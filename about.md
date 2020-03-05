@@ -54,7 +54,7 @@ A avaliação do curso será composta por duas provas (P1 e P2) e um Projeto Fin
 
 A média geral (MG) será dada pela seguinte fórmula:
 
-\\$$ MG = 0.35 \times P1 + 0.40 \times P2 + 0.25 \times PF \\$$
+ MG = 0.35 \times P1 + 0.40 \times P2 + 0.25 \times PF 
 
 Pelo Regimento Geral de Graduação, Seção I, Artigo 57, os seguintes critérios para aprovação e exame serão aplicados:
 
