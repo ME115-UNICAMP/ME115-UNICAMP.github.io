@@ -58,9 +58,9 @@ A média geral (MG) será dada pela seguinte fórmula:
 
 Pelo Regimento Geral de Graduação, Seção I, Artigo 57, os seguintes critérios para aprovação e exame serão aplicados:
 
-* Se MG \geq 7, o aluno está aprovado e MF =MG.
+* Se MG >= 7, o aluno está aprovado e MF =MG.
 
-* Se 2.5 \leq MG < 7 e frequência mínima de 75\%, o aluno deverá fazer o Exame (E).
+* Se 2.5 <= MG < 7 e frequência mínima de 75\%, o aluno deverá fazer o Exame (E).
 
 * Se MG < 7  e frequência inferior a 75\%, o aluno está reprovado por frequência e MF = MG.
 
