@@ -56,7 +56,7 @@ A média geral (MG) será dada pela seguinte fórmula:
 
  MG = 0.35 P1 + 0.40 P2 + 0.25 PF 
 
-Pelo Regimento Geral de Graduação, Seção I, Artigo 57, os seguintes critérios para aprovação e exame serão aplicados:
+Pelo [Regimento Geral de Graduação, Seção I, Artigo 57](https://www.dac.unicamp.br/portal/graduacao/regimento-geral), os seguintes critérios para aprovação e exame serão aplicados:
 
 * Se MG >= 7, o aluno está aprovado e MF =MG.
 
