@@ -54,20 +54,20 @@ A avaliação do curso será composta por duas provas (P1 e P2) e um Projeto Fin
 
 A média geral (MG) será dada pela seguinte fórmula:
 
- MG = 0.35 \times P1 + 0.40 \times P2 + 0.25 \times PF 
+ MG = 0.35 P1 + 0.40 P2 + 0.25 PF 
 
 Pelo Regimento Geral de Graduação, Seção I, Artigo 57, os seguintes critérios para aprovação e exame serão aplicados:
 
-* Se \\$MG \geq 7\\$, o aluno está aprovado e $MF =MG$.
+* Se MG \geq 7, o aluno está aprovado e MF =MG.
 
-* Se $2.5 \leq MG < 7$ e frequência mínima de 75\%, o aluno deverá fazer o Exame (E).
+* Se 2.5 \leq MG < 7 e frequência mínima de 75\%, o aluno deverá fazer o Exame (E).
 
-* Se $MG < 7 $ e frequência inferior a 75\%, o aluno está reprovado por frequência e $MF = MG$.
+* Se MG < 7  e frequência inferior a 75\%, o aluno está reprovado por frequência e MF = MG.
 
-* Se $MG < 2.5$, o aluno está reprovado e $MF = MG$.
+* Se MG < 2.5, o aluno está reprovado e MF = MG.
 
 * Para o aluno que fizer o exame, a Média Final (MF) é definida por:
-$MF = (MG + E)/2$.  Nesse caso, se MF $ \geq 5$, o aluno está aprovado. Caso contrário, está reprovado.
+MF = (MG + E)/2.  Nesse caso, se MF  \geq 5, o aluno está aprovado. Caso contrário, está reprovado.
 
 ### Datas importantes
 
