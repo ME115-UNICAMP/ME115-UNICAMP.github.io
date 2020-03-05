@@ -10,13 +10,13 @@ permalink: /about/
 * PED - João Victor Bastos de Freitas - j229299@dac.unicamp.br
 * PAD - Gustavo de Almeida Leiva - g217418@dac.unicamp.br
 * Comunicação por email: APENAS pelo email samarak@unicamp.br, APENAS com [ME115] especificado no assunto da mensagem, APENAS remetentes do email dac.unicamp.br. Qualquer outra mensagem de aluno sem essas especificações [será ignorada](images/hqdefault.jpg).
-* Notas, atividades e comunicações estarão disponíveis na página do Moodle: [Turmas A e B](http://www.ggte.unicamp.br/eam/course/view.php?id=5973).
-* Sobre abono de faltas, consulte o [regimento](http://www.dac.unicamp.br/portal/grad/regimento/capitulo_v/secao_x/).
+* Notas, atividades e comunicações estarão disponíveis na página do Moodle: [Em breve!](XXX).
+* Sobre abono de faltas, consulte o [regimento](https://www.dac.unicamp.br/portal/vida-academica/graduacao/avaliacao-e-frequencia/abono-de-faltas-e-exercicios-domiciliares).
 * O aluno deverá proceder de forma respeitosa e honesta durante as provas bem como na resolução de qualquer outra atividade que seja parte da avaliação do curso.
 * A senha usada para acessar o Moodle é intransferível. Capítulo VI, artigo 59: [http://www.pg.unicamp.br/mostra_norma.php?id_norma=3256](http://www.pg.unicamp.br/mostra_norma.php?id_norma=3256).
 * No caso de impedimento do acesso à sala de aula, o material será disponibilizado no Moodle e a
 professora ficará disponível durante o período da aula na sala 245 para tirar dúvidas.
-* No caso de impedimento do nosso acesso à sala de aula nos dias de provas, estas poderão ser
+* No caso de impedimento do acesso à sala de aula nos dias de provas, estas poderão ser
 aplicadas *online* ou a critério do professor.
 * Casos não contemplados neste documento, serão devidamente avaliados.
 
@@ -45,7 +45,7 @@ Esse curso tem o suporte do [DataCamp](http://www.datacamp.com), uma plataforma 
 
 Um convite será enviado para acesso ao grupo criado no DataCamp para essa disciplina. Use seu email xxx.unicamp.br para criar/acessar sua conta. 
 
-![DataCamp](images/DataCamp_Horizontal_RGB.png)
+![DataCamp](images/DataCamp_Horizontal_RGB.png){:height="70%"}
 
 
 ### Critérios de Avaliação e Datas Importantes
