@@ -1,7 +1,7 @@
 ---
 title: "ME115 - Linguagem R"
 subtitle: "Projeto Final"
-author: "Profa. Samara Kiihl"
+author: "Profas. Samara Kiihl e Tatiana Benaglia"
 output: html_document
 ---
 
@@ -11,9 +11,9 @@ output: html_document
 
 Nesse projeto vocês irão aplicar todo conhecimento adquirido com os tutoriais e tarefas desenvolvidos ao longo do semestre. 
 
-O projeto será executado em grupos. Cada grupo deverá selecionar um conjunto de dados de seu interesse com o qual irá trabalhar. Uma dica é utilizar os dados disponíveis na plataforma Kaggle  ([https://www.kaggle.com/datasets](https://www.kaggle.com/datasets)). 
+O projeto será executado em duplas. Cada dupla deverá selecionar um conjunto de dados de seu interesse disponível na plataforma Kaggle  ([https://www.kaggle.com/datasets](https://www.kaggle.com/datasets)) com o qual irá trabalhar. Veja que é possível filtrar os bancos de dados por formato, tamanho do arquivo e assunto (*tag*). 
 
-Baseando-se nos dados selecionados, cada grupo irá elaborar uma pergunta de interesse que deverá ser respondida utilizando métodos estatísticos. Será obrigatório que o projeto contemple os principais tópicos vistos durante o curso, descritos a seguir, com respectivos pacotes:
+Baseando-se nos dados selecionados, cada dupla irá elaborar uma pergunta de interesse que deverá ser respondida utilizando métodos estatísticos. Será obrigatório que o projeto contemple os principais tópicos vistos durante o curso, descritos a seguir, com respectivos pacotes:
 
 - Importação do banco de dados: diretamente da web (recomendado) ou baixando o arquivo csv/txt (`readr`)
 
@@ -26,10 +26,10 @@ Baseando-se nos dados selecionados, cada grupo irá elaborar uma pergunta de int
 
 #### Relatório
 
-O relatório deverá ser feito de maneira **reprodutível** utilizando o R Markdown, que deverá gerar um arquivo `.pdf` com no máximo **8 páginas**. Códigos, mensagens e avisos do R não devem estar visíveis no relatório. Vocês irão entregar os arquivos `.Rmd` e `.pdf`. O envio deverá ser feito SOMENTE via Moodle, no campo especificado para o projeto. Atentem-se para o limite de 10mb para cada arquivo submetido via Moodle e para o prazo de envio. Não serão aceitas submissões fora do prazo.
+O relatório deverá ser feito de maneira **reprodutível** utilizando o R Markdown, que deverá gerar um arquivo `.pdf` com no máximo **8 páginas**. Códigos, mensagens e avisos do R não devem estar visíveis no `.pdf` do relatório. Vocês irão entregar os arquivos `.Rmd` e `.pdf`. O envio deverá ser feito SOMENTE via Moodle, no campo especificado para o projeto. Atentem-se para o limite de 10mb para cada arquivo submetido via Moodle e para o prazo de envio. Não serão aceitas submissões fora do prazo.
 
 
-Cada grupo deverá apresentar no relatório:
+Cada dupla deverá apresentar no relatório:
 
 - **Título**
 
@@ -52,4 +52,4 @@ Para auxiliar na escrita do relatório, recomendamos os livros:
 
 #### Apresentação
 
-Cada grupo deverá preparar uma apresentação de 5 minutos que será submetida SOMENTE via Moodle em formato `.pdf`. O arquivo deverá ser submetido até a data limite especificada pela professora. Os trabalhos serão apresentados durantes as aulas dos dias 23 e 25 de junho de 2020.
+Cada dupla deverá preparar uma apresentação de 5 minutos que será submetida SOMENTE via Moodle em formato `.pdf`. O arquivo deverá ser submetido até a data limite especificada pelo professor. A data e local da apresentação serão comunicados pelo professor também via Moodle.
