@@ -45,7 +45,6 @@ Esse curso tem o suporte do [DataCamp](http://www.datacamp.com), uma plataforma 
 
 Um convite será enviado para acesso ao grupo criado no DataCamp para essa disciplina. Use seu email xxx.unicamp.br para criar/acessar sua conta. 
 
-![DataCamp](images/DataCamp_Horizontal_RGB.png){:height="200px" width="500px"}
 
 
 ### Critérios de Avaliação e Datas Importantes
