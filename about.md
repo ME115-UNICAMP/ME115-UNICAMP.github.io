@@ -67,7 +67,7 @@ Pelo [Regimento Geral de Graduação, Seção I, Artigo 57](https://www.dac.unic
 * Se MG < 2.5, o aluno está reprovado e MF = MG.
 
 * Para o aluno que fizer o exame, a Média Final (MF) é definida por:
-MF = (MG + E)/2.  Nesse caso, se MF  \geq 5, o aluno está aprovado. Caso contrário, está reprovado.
+MF = (MG + E)/2.  Nesse caso, se MF >= 5, o aluno está aprovado. Caso contrário, está reprovado.
 
 ### Datas importantes
 
