@@ -6,14 +6,21 @@ permalink: /atividades/
 
 
 
-# Plataforma Moodle
+# Google Classroom
 
-Em breve!
+* ME115 A: código da turma gcp5csd
 
+* ME115 B: código da turma gmptz34
+
+Para comunicações gerais.
+
+# RStudio Cloud
+
+Para atividades práticas durante o semestre, usaremos a plataforma [RStudio Cloud](https://rstudio.cloud/). O aluno acessará as tarefas através do RStudio "na nuvem". A professora e os monitores têm acesso simultaneamente às tarefas de cada aluno, permitindo acompanhamento mesmo de maneira remota.   
 
 # Projeto Final
 
-[Instruções](Projeto/ProjetoFinal.html) para o Projeto Final
+[Instruções](Projeto/ProjetoFinal.html) para o Projeto Final.
 
 
 # Plataforma [DataCamp](https://www.datacamp.com)
