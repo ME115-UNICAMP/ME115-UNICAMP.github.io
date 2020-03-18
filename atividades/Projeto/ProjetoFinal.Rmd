@@ -61,3 +61,8 @@ Algumas ferramentas para gravar vídeos com apresentação de slides:
 
 É importante que o grupo teste a ferramenta escolhida com antecedência.
 
+
+#### Observação
+
+No caso de retorno de aulas presenciais, teremos uma discussão sobre os projetos finais no dia **30/06**.
+

@@ -34,7 +34,7 @@ Para acessar alguns dos livros digitais fora da Unicamp, você poderá precisar 
 
 ### Recursos de aprendizado
 
-Esse curso tem o suporte da plataforma [RStudio Cloud](https://rstudio.cloud/) para realizarmos as atividades práticas do curso. Mais detalhes no menu [Atividade](/atividades).
+Esse curso tem o suporte da plataforma [RStudio Cloud](https://rstudio.cloud/) para realizarmos as atividades práticas do curso. Mais detalhes no menu [Atividade](/atividades). No caso de as aulas presenciais retornarem antes do final do semestre, continuaremos a utilizar o RStudio Cloud, mas as atividades ocorrerão presencialmente, no horário regular de aula.
 
 Esse curso tem também o suporte do [DataCamp](http://www.datacamp.com), uma plataforma de aprendizado em ciência de dados. Todos os alunos terão acesso gratuito a todos os cursos disponíveis durante o semestre. Os cursos disponíveis no DataCamp são opcionais.
 
