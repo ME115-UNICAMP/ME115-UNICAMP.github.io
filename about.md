@@ -4,7 +4,7 @@ title: Informações
 permalink: /about/
 ---
 
-<font color='red'>Alteração das informações neste site devido à Resolução GR/2020: [https://www.unicamp.br/unicamp/noticias/2020/03/16/coronavirus-resolucao-gr-252020](https://www.unicamp.br/unicamp/noticias/2020/03/16/coronavirus-resolucao-gr-252020) </font>
+**Alteração das informações neste site devido à Resolução GR/2020: [https://www.unicamp.br/unicamp/noticias/2020/03/16/coronavirus-resolucao-gr-252020](https://www.unicamp.br/unicamp/noticias/2020/03/16/coronavirus-resolucao-gr-252020)**
 
 
 
