@@ -38,11 +38,17 @@ Esse curso tem também o suporte do [DataCamp](http://www.datacamp.com), uma pla
 
 ### Critérios de Avaliação e Datas Importantes
 
-A avaliação do curso se dará através das atividades e projeto final.
+A avaliação do curso se dará através das [Atividades](/atividades) e [Projeto Final](Projeto/ProjetoFinal.html).
 
 A média geral (MG) será dada pela seguinte fórmula:
 
- MG = 0.40 AN + 0.30 RF + 0.30 AF
+ MG = 0.40 AN + 0.30 RF + 0.30 AF,
+ 
+ em que:
+ 
+ * AN - média das atividades com nota.
+ * RF - nota do relatório do projeto final.
+ * AF - nota da apresentação do projeto final.
 
 Pelo [Regimento Geral de Graduação, Seção I, Artigo 57](https://www.dac.unicamp.br/portal/graduacao/regimento-geral), os seguintes critérios para aprovação e exame serão aplicados:
 
