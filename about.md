@@ -13,7 +13,7 @@ permalink: /about/
 * PAD - Gustavo de Almeida Leiva - g217418@dac.unicamp.br
 * Comunicação por email: pelo email samarak@unicamp.br, com [ME115] especificado no assunto da mensagem, a partir de remetentes do email dac.unicamp.br. 
 * Comunicação via Google Classroom: alunos podem postar ou comentar mensagens no "Mural" do Google Classroom.
-* Comunicação ao vivo: "lives" serão agendadas através do Google Classroom e ocorrerão utilizando o Google Meet (há aplicativo para celular também, além do Desktop).
+* Comunicação ao vivo: "lives" serão agendadas através do Google Classroom e ocorrerão utilizando o Google Meet (há aplicativo para celular também, além do Desktop). As "lives" esporádicas serão gravadas e ficarão disponíveis aos alunos.
 * Comunicação ao vivo "fixa": às terças e quintas das 13 às 14 horas através do Google Meet. Para participar da videochamada, clique neste link: [https://meet.google.com/kqg-utuy-noh](https://meet.google.com/kqg-utuy-noh) no horário. Para que a transmissão fique organizada, pedimos que, ao entrar, desliguem o microfone e o video e usem possivelmente fones de ouvido. Para pedir a palavra, escreva no chat, assim um poderá falar de cada vez.
 
 * Atividades e comunicações estarão disponíveis no Google Classroom.
