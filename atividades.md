@@ -16,6 +16,10 @@ Para comunicações gerais.
 
 As atividades serão indicadas semana a semana: leitura de capítulos, vídeos e atividades práticas. 
 
+Para cada semana, haverá um tópico correspondente no "Mural" para dúvidas.
+
+As "lives" também serão anunciadas via Classroom.
+
 
 # RStudio Cloud
 
