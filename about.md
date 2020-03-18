@@ -38,7 +38,7 @@ Esse curso tem também o suporte do [DataCamp](http://www.datacamp.com), uma pla
 
 ### Critérios de Avaliação e Datas Importantes
 
-A avaliação do curso se dará através das [Atividades](/atividades) e [Projeto Final](Projeto/ProjetoFinal.html).
+A avaliação do curso se dará através das [Atividades](/atividades) e [Projeto Final](/atividades/Projeto/ProjetoFinal.html).
 
 A média geral (MG) será dada pela seguinte fórmula:
 
