@@ -14,6 +14,9 @@ permalink: /atividades/
 
 Para comunicações gerais.
 
+As atividades serão indicadas semana a semana: leitura de capítulos, vídeos e atividades práticas. 
+
+
 # RStudio Cloud
 
 Para atividades práticas durante o semestre, usaremos a plataforma [RStudio Cloud](https://rstudio.cloud/). O aluno acessará as tarefas através do RStudio "na nuvem". A professora e os monitores têm acesso simultaneamente às tarefas de cada aluno, permitindo acompanhamento remoto.   
