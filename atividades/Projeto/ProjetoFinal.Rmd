@@ -25,7 +25,7 @@ Baseando-se nos dados selecionados, cada grupo irá elaborar uma pergunta de int
 
 #### Relatório
 
-O relatório deverá ser feito de maneira **reprodutível** utilizando o R Markdown, que deverá gerar um arquivo `.pdf` com no máximo **8 páginas**. Códigos, mensagens e avisos do R não devem estar visíveis no `.pdf` do relatório. Vocês irão entregar os arquivos `.Rmd`, o `.pdf` resultante, bem como arquivos auxiliares necessários para a execução do `.Rmd`. A forma de envio será especificada mais adiante. O envio deverá ser feito no dia **23 de junho**.
+O relatório deverá ser feito de maneira **reprodutível** utilizando o R Markdown, que deverá gerar um arquivo `.pdf` com no máximo **8 páginas**. Códigos, mensagens e avisos do R não devem estar visíveis no `.pdf` do relatório. Vocês irão entregar os arquivos `.Rmd`, o `.pdf` resultante, bem como arquivos auxiliares necessários para a execução do `.Rmd`. A forma de envio será especificada mais adiante. O envio deverá ser feito no dia **7 de julho**.
 
 
 Cada grupo deverá apresentar no relatório:
@@ -51,7 +51,7 @@ Para auxiliar na escrita do relatório, recomendamos os livros:
 
 #### Apresentação
 
-Cada grupo deverá preparar uma apresentação que será submetida via Google Classroom. O grupo deverá enviar apenas o **arquivo do vídeo da apresentação**. A duração da apresentação é de no máximo 5 minutos. O arquivo deverá ser submetido até o dia **25 de junho**.
+Cada grupo deverá preparar uma apresentação que será submetida via Google Classroom. O grupo deverá enviar apenas o **arquivo do vídeo da apresentação**. A duração da apresentação é de no máximo 5 minutos. O arquivo deverá ser submetido até o dia **13 de julho**.
 
 Algumas ferramentas para gravar vídeos com apresentação de slides:
 
@@ -62,7 +62,4 @@ Algumas ferramentas para gravar vídeos com apresentação de slides:
 É importante que o grupo teste a ferramenta escolhida com antecedência.
 
 
-#### Observação
-
-No caso de retorno de aulas presenciais, teremos uma discussão sobre os projetos finais no dia **30/06**.
 
