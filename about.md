@@ -58,20 +58,20 @@ A média geral (MG) será dada pela seguinte fórmula:
 
 Pelo [Regimento Geral de Graduação, Seção I, Artigo 57](https://www.dac.unicamp.br/portal/graduacao/regimento-geral), os seguintes critérios para aprovação e exame serão aplicados:
 
-* Se MG >= 7, o aluno está aprovado e MF = MG.
+* Se MG >= 5, o aluno está aprovado e MF = S (Suficiente).
 
-* Se 2.5 <= MG < 7 o aluno deverá fazer o Exame (E).
+* Se 2.5 <= MG < 5 o aluno deverá fazer o Exame (E).
 
-* Se MG < 2.5, o aluno está reprovado e MF = MG.
+* Se MG < 2.5, o aluno está reprovado e MF = I (Insuficiente).
 
 * Para o aluno que fizer o exame, a Média Final (MF) é definida por:
-MF = (MG + E)/2.  Nesse caso, se MF >= 5, o aluno está aprovado. Caso contrário, está reprovado.
+MF = (MG + E)/2.  Nesse caso, se MF >= 5, o aluno receberá conceito S. Caso contrário, receberá conceito I.
 
 ### Datas importantes
 
-* 23/06 Relatório Final (RF)
-* 25/06 Apresentação Final (AF)
-* Exame Final (E) - presencial, sem data definida (aguardaremos comunicados da Reitoria/PRG)
+* 07/07 Relatório Final (RF)
+* 13/07 Apresentação Final (AF)
+* Exame Final (E) - a ser agendado (aguardando deliberação)
 
 
 ### Principais tópicos
