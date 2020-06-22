@@ -71,7 +71,7 @@ MF = (MG + E)/2.  Nesse caso, se MF >= 5, o aluno receberá conceito S. Caso con
 
 * 07/07 Relatório Final (RF)
 * 13/07 Apresentação Final (AF)
-* Exame Final (E) - a ser agendado (aguardando deliberação)
+* 28/07 Exame Final (E)
 
 
 ### Principais tópicos
